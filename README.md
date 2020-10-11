@@ -34,6 +34,13 @@ cat part.txt | python 21mapper.py | sort
 cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 
 ```
+If you want to check the same thing for other input file like purchases.txt use this commands:
+```Bash
+cat purchases.txt
+cat purchases.txt | python 21mapper.py
+cat purchases.txt | python 21mapper.py | sort
+cat ppurchasesart.txt | python 21mapper.py | sort  | python 22reducer.py
+```
 
 ## References
 
